@@ -233,7 +233,7 @@ github.com/openshift/api/template/v1
 github.com/openshift/api/unidling/v1alpha1
 github.com/openshift/api/user
 github.com/openshift/api/user/v1
-# github.com/openshift/build-machinery-go v0.0.0-20210806203541-4ea9b6da3a37
+# github.com/openshift/build-machinery-go v0.0.0-20210806203541-4ea9b6da3a37 => github.com/slaskawi/build-machinery-go v0.0.0-20210909103146-5fc5ee5bd10b
 ## explicit
 github.com/openshift/build-machinery-go
 github.com/openshift/build-machinery-go/make
@@ -1192,3 +1192,4 @@ sigs.k8s.io/yaml
 ## explicit
 vbom.ml/util/sortorder
 # vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
+# github.com/openshift/build-machinery-go => github.com/slaskawi/build-machinery-go v0.0.0-20210909103146-5fc5ee5bd10b

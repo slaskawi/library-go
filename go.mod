@@ -59,3 +59,5 @@ require (
 )
 
 replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
+
+replace github.com/openshift/build-machinery-go => github.com/slaskawi/build-machinery-go v0.0.0-20210909103146-5fc5ee5bd10b

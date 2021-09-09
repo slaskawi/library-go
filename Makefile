@@ -12,6 +12,7 @@ include $(addprefix ./vendor/github.com/openshift/build-machinery-go/make/, \
 	golang.mk \
 	targets/openshift/deps.mk \
 	targets/openshift/bindata.mk \
+	targets/openshift/golangci-lint.mk \
 )
 
 $(call add-bindata,backingresources,./pkg/operator/staticpod/controller/backingresource/manifests/...,bindata,bindata,./pkg/operator/staticpod/controller/backingresource/bindata/bindata.go)
