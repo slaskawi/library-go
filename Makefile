@@ -19,6 +19,7 @@ $(call add-bindata,installer,./pkg/operator/staticpod/controller/installer/manif
 $(call add-bindata,staticpod,./pkg/operator/staticpod/controller/prune/manifests/...,bindata,bindata,./pkg/operator/staticpod/controller/prune/bindata/bindata.go)
 $(call add-bindata,auditpolicies,./pkg/operator/apiserver/audit/manifests/...,bindata,bindata,./pkg/operator/apiserver/audit/bindata/bindata.go)
 $(call add-bindata,podnetworkconnectivitychecks,pkg/operator/connectivitycheckcontroller/manifests/...,bindata,bindata,pkg/operator/connectivitycheckcontroller/bindata/bindata.go)
+$(call add-bindata,customroute,pkg/operator/customroute/manifests/...,bindata,bindata,pkg/operator/customroute/bindata/bindata.go)
 
 pkg/operator/connectivitycheckcontroller/manifests/controlplane.operator.openshift.io_podnetworkconnectivitychecks.yaml: vendor/github.com/openshift/api/operatorcontrolplane/v1alpha1/0000_10-pod-network-connectivity-check.crd.yaml
 	mkdir -p $$(dirname $@)
