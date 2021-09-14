@@ -48,6 +48,7 @@ type customRouteController struct {
 	consumingUsers []configv1.ConsumingUser
 }
 
+
 func NewCustomRouteController(
 	componentRouteNamespace string,
 	componentRouteName string,
